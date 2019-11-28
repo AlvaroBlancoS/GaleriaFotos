@@ -1,0 +1,49 @@
+body 
+{
+  margin: 0;
+}
+
+button {
+    background-color: rgb(152, 196, 236); 
+    border-style: outset;
+    color: black;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+  }
+
+  button:disabled, button[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+  }
+  button:enabled:hover
+  {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    background-color: rgb(236, 194, 56);
+  }
+
+  #img 
+  {
+    width: 50%;
+    border-style: outset;
+  }
+
+  .gallery 
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+  }
+
+  #title 
+  {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
